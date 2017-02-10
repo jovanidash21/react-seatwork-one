@@ -1,5 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
+import Greeting from './components/Greeting/Index';
 
-render(<App name='World'/>, document.getElementById('root'));
+render(<Greeting />, document.getElementById('root'));
