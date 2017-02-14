@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GroceryList from './GroceryList';
 
-let groceries = [
+var groceries = [
     {item: 'Apple'},
     {item: 'Pineapple'}
 ];
@@ -16,12 +16,13 @@ class Grocery extends Component {
         };
 
         this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleAddItem = this.handleAddItem.bind(this);
+        this.handleClearItems = this.handleClearItems.bind(this);
     }
     handleChange(event) {
         this.setState({value: event.target.value});
     }
-    handleSubmit(event) {
+    handleAddItem(event) {
         event.preventDefault();
         let item = this.state.value;
         if (item.length != 0) {
@@ -33,7 +34,6 @@ class Grocery extends Component {
         }
     }
     render() {
-
         return (
             <div className="container">
                 <div className="row">
@@ -41,7 +41,7 @@ class Grocery extends Component {
                         <h1>
                             Grocery List
                         </h1>
-                        <form onSubmit={this.handleSubmit}>
+                        <form onSubmit={this.handleAddItem}>
                             <div className="input-group">
                                 <input className="form-control" type="text" placeholder="Item" value={this.state.value} onChange={this.handleChange} required />
                                 <span className="input-group-btn">

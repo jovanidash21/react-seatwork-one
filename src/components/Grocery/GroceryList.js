@@ -5,7 +5,7 @@ class GroceryList extends Component {
         const {grocery} = this.props;
 
         return (
-            <li>{grocery.item}</li>
+            <li style={{listStyle:"none"}}>{grocery.item}</li>
         )
     };
 }
