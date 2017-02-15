@@ -17,7 +17,6 @@ class Grocery extends Component {
 
         this.handleChange = this.handleChange.bind(this);
         this.handleAddItem = this.handleAddItem.bind(this);
-        this.handleClearItems = this.handleClearItems.bind(this);
     }
     handleChange(event) {
         this.setState({value: event.target.value});
