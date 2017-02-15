@@ -16,6 +16,10 @@
 ```
 npm install
 ```
+* Run 'webpack.config.js'
+```
+webpack -p
+```
 * Run 'www' file inside the bin directory.
 ```
 node ./bin/www
