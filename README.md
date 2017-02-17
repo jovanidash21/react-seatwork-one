@@ -11,7 +11,13 @@
 
 ## Installation
 * Clone or download this repository.
+```
+git clone https://github.com/jovanidash21/software-engineering-seatwork-one-react.git
+```
 * Using a terminal or cmd, navigate to the project directory.
+```
+cd software-engineering-seatwork-one-react
+```
 * Install node modules.
 ```
 npm install
