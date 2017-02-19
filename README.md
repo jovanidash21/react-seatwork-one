@@ -14,7 +14,7 @@
 ```
 git clone https://github.com/jovanidash21/software-engineering-seatwork-one-react.git
 ```
-* Using a terminal or cmd, navigate to the project directory.
+* Navigate to the project directory.
 ```
 cd software-engineering-seatwork-one-react
 ```
@@ -22,7 +22,7 @@ cd software-engineering-seatwork-one-react
 ```
 npm install
 ```
-* Run 'webpack.config.js'
+* Run 'webpack.config.js'.
 ```
 webpack -p
 ```
