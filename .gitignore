@@ -6,14 +6,27 @@ npm-debug.log*
 # Dependency directory
 node_modules/
 
+# IntelliJ IDE directory
+.idea/
+
+# Mac thumbnail cache files
+*.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
 # Webpack build
 public/build/
 
-# Webstorm files
-.idea/
-
 # Windows thumbnail cache files
 Thumbs.db
+Desktop.ini
 ehthumbs.db
 ehthumbs_vista.db
-
