@@ -35,4 +35,4 @@ npm run dev
 * ```npm run dev``` - run the project in dev mode.
 
 ## Website
-[Live Demo](https://react-seatwork-one-jovanidash21.herokuapp.com/)
+[Live Demo](https://react-sw-one-jovanidash21.herokuapp.com/)
