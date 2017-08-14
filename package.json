@@ -1,13 +1,20 @@
 {
-  "name": "software-engineering-seatwork-one",
+  "name": "react-seatwork-one",
   "version": "0.0.0",
+  "description": "",
   "private": true,
+  "author": "Jovani Warguez",
+  "main": "bin/www",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovanidash21/react-seatwork-one.git"
+  },
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node bin/www",
     "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
     "build:client": "webpack -p",
-    "build:server": "cross-env NODE_ENV=production node ./bin/www",
-    "dev": "concurrently -k \"webpack --watch\" \"nodemon ./bin/www --watch build\""
+    "build:server": "cross-env NODE_ENV=production node bin/www",
+    "dev": "concurrently -k \"webpack --watch\" \"nodemon bin/www --watch build\""
   },
   "dependencies": {
     "body-parser": "^1.17.2",
