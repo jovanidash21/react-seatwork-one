@@ -36,3 +36,6 @@ npm run dev
 
 ## Website
 [Live Demo](https://react-sw-one-jovanidash21.herokuapp.com/)
+
+## License
+Licensed under [MIT](https://opensource.org/licenses/mit-license.php).
